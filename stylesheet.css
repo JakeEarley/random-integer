@@ -1,19 +1,30 @@
 body {
 	margin: 0px;
-	background-color: #D2FDFD;
+	background-color: #CCEEFF;
 }
 .customhead {
-	background-color: #e8d2fd;
+	background-color: #142833;
 	width: 100%;
+	position: absolute;
+	top: 0px;
+	color: white;
+	-webkit-box-shadow: 2px 2px 4px 1px #999;
+    box-shadow: 2px 2px 4px 1px #999;
 }
 .maincontents {
 	text-align: center;
+	position: absolute;
+	top: 300px;
+	width: 100%;
 }
 
 .maincontents p {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	font-size: 50px;
+	padding: 0px;
+	margin: 0px;
+	
 }
 
 .customhead p {
@@ -23,8 +34,48 @@ body {
 	font-size: 60px;
 }
 
+.footbar {
+	overflow: hidden;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 70px;
+	background-color: #142833;
+	color: white;
+}
+
+.footbarleft {
+	position: fixed;
+	height: 70px;
+	bottom: 0px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.footbarright {
+	position: fixed;
+	height: 70px;
+	right: 0px;
+	bottom: 0px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.footbarright a {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+.footbarright a:hover {
+	color: #4CA5FF;
+	font-weight: bold;
+}
+
 p2 {
-	font-size: 30px;
+	font-size: 35px;
 }
 
 input[type=text] {
@@ -35,7 +86,7 @@ input[type=text] {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #fdf2d2;
+    background-color: #ffffff;
     resize: none;
 	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
@@ -47,7 +98,7 @@ input[type=button] {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #fdf2d2;
+    background-color: #f8f8f8;
     resize: none;
 	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
