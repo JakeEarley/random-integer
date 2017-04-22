@@ -5,4 +5,4 @@ Two basic HTML textboxes take input for minimum and maximum integers. Once the b
 between the given bounds. 
 Checks should be made to ensure there will not be an error.
 
-CSS styling should be modern and utilise pastel colours.
+CSS styling should be modern and utilise a consistent colour scheme.
